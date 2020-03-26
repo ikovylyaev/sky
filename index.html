@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>ecomap - главная</title>
+  <meta charset="utf-8">
+	
+  <link rel="stylesheet" href="leaflet.css">
+	<script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js" integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew==" crossorigin=""></script>
+  
+	<link rel="stylesheet" href="fonts/stylesheet.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="dashboard.css">
+  <!--<script src="https://maps.api.2gis.ru/2.0/loader.js"></script>-->
+  
+  <link rel="stylesheet" href="map.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
+  <link rel="stylesheet" href="leaflet-beautify-marker-icon.css">
+  <script src="leaflet-beautify-marker-icon.js"></script>
+  
+	
+</head>
+<body>
+
+<div class="container-fluid">
+  <div class="row">
+    <nav class="col-md-2 sidebar">
+      <div class="sidebar-sticky bg-gradient">
+        <ul class="nav flex-column">
+          <li class="nav-item">
+            <a class="nav-link active" href="map.html">
+              главная
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="map.html">
+              карта
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">
+              о проекте
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">
+              поддержать
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">
+            	заявка
+            </a>
+          </li>
+        </ul>
+
+      </div>
+      <div style="position: absolute; bottom: 5px; left: 140px; width: calc(100% - 140px);padding-left: 5px;">
+      	<ul class="nav nav-bottom">
+    		  <li class="nav-item">
+    		    <a class="nav-link" href="">политики</a>
+    		  </li>
+          <li class="nav-item">
+            <a class="nav-link" href="">условия</a>
+          </li>
+    		  <li class="nav-item">
+    		    <a class="nav-link" href="">разработчикам</a>
+    		  </li>
+    		</ul>
+      </div>
+    </nav>
+    <div class='side-menu'>
+      <div class="menu-toggle" id='menu-toggle'>
+        <img src="images/menu.svg" width="40px">
+      </div>
+    </div>
+    <main role="main">
+    	<div class="background">
+        <div class="main-home row">
+          <div class="col-lg-4">
+            <svg class="circle-chart" viewbox="0 0 33.83098862 33.83098862" style='width: 100vw; max-width: 60vw;' xmlns="http://www.w3.org/2000/svg">
+              <circle class="circle-chart__background" stroke="#ffffff" stroke-width="2" fill="none" cx="16.91549431" cy="16.91549431" r="15.91549431" />
+              <circle class="circle-chart__circle" stroke="#F39C11" stroke-width="2" stroke-dasharray="14,100" stroke-linecap="round" fill="none" cx="16.91549431" cy="16.91549431" r="15.91549431" />
+              <g class="circle-chart__info">
+                <circle class="circle-chart__circle" fill="#0077fe" stroke-linecap="round" cx="16.91549431" cy="16.91549431" r="13" />
+
+                <text class="circle-chart__percent" style='fill: #ffffff; z-index: 120; position: absolute;' x="16.91549431" y="21.7" alignment-baseline="central" text-anchor="middle" font-size="14">68</text>
+              </g>
+            </svg>
+          </div>
+          <div class="col-lg-8">
+            <div class="main-center">
+              <div class="row" style="margin: 0 0 40px 0!important; padding: 0px!important">
+                <div class="col-auto p-0 m-0"><img src="images/pin.svg" style="width: 60px; padding-right: 10px;"></div>
+                <div class="col-auto p-0 m-0" style="min-width: 200px;">
+                  <p class="p-0 m-0" style="color: #ccc; text-align: left!important">
+                    Екатеринбург <br>
+                    <small class="p-0 m-0" style="position: absolute; top: 26px; width: 100%;">Свердловская область</small>
+                  </p>
+                </div>
+              </div>
+              <h1 class="air-2 air-2-ts"><b>приемлемое</b></h1>
+              <h2 class="h1">качество воздуха</h2>
+              <h4 class="h3">данные на 21:00</h4>
+            </div>
+            
+          </div>
+          
+        </div>
+        
+               
+      </div>
+      <img src="sky-blue.png" class='logo-bottom'>
+    </main>
+  </div>
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.2/jquery.min.js"></script>
+<script type="text/javascript">
+      $('.sidebar').fadeOut(0);
+      $('#menu-toggle').click(function(){
+        $('#menu-toggle').toggleClass('active');
+        $('.sidebar').fadeToggle(500);
+      })
+
+
+</script>
+
+</body>
+</html>

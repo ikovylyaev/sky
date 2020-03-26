@@ -1,0 +1,55 @@
+.dg-zoom__button_type_out{
+	position: fixed!important;
+	bottom: 5px!important;
+	box-shadow: none!important;
+	left: 5px!important;
+	background: #0077FE!important;
+	width: 50px!important;
+	height: 50px!important;
+	border-radius: 10px!important;
+}
+.dg-zoom__button_type_out:after{
+	background: #fff!important;
+	box-shadow: none!important;
+	height: 4px!important;
+	width: 30px!important;
+	border-radius: 2px!important;
+}
+.dg-zoom__button_type_in{
+	position: fixed!important;
+	bottom: 65px!important;
+	box-shadow: none!important;
+	left: 5px!important;
+	background: #0077FE!important;
+	width: 50px!important;
+	height: 50px!important;
+	border-radius: 10px!important;
+}
+.dg-zoom__button_type_in:before{
+	background: #fff!important;
+	box-shadow: none!important
+	height: 4px!important;
+	width: 30px!important;
+	border-radius: 2px!important;
+}
+.dg-zoom__button_type_in:after{
+	background: #fff!important;
+	box-shadow: none!important;
+	height: 30px!important;
+	width: 4px!important;
+	border-radius: 2px!important;
+}
+.dg-control-round{
+	background: none!important;
+	box-shadow: none!important;
+}
+.dg-zoom_in, .dg-zoom_in:after, .dg-zoom_in:before, .dg-zoom_out, .dg-zoom_out:after, .dg-zoom_out:before{
+	box-shadow: none!important;
+}
+.dg-zoom{
+	position: fixed!important;
+	left: -50px!important;
+}
+.dg-attribution{
+	display: none!important;
+}
