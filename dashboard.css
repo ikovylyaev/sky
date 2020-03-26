@@ -243,9 +243,6 @@ body {
   transform: translateY(-50%);
   z-index: 100;
 }
-.main-home .display-1{
-  font-size: 20vh;
-}
 .main-center{
   position: absolute;
   top: 50%;
