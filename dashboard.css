@@ -208,7 +208,7 @@ body {
 .background{
   height: 100vh; 
   width: calc(100% - 80px); 
-  background: url(images/ekb.jpg); 
+  background: url(http://sky.ikovylyaev.com/images/ekb.jpg); 
   background-position: center right; 
   background-attachment: fixed; 
   background-size: cover;
