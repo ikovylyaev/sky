@@ -336,6 +336,10 @@ body {
   transform: translateY(-50%) translateX(-50%);
   text-align: center;
 }
+.mobile-home .display-1{
+  font-weight: bold;
+  font-size: 20vh;
+}
 
 @media(max-width: 992px){
   .main-home{position: static!important;transform: translateY(0); text-align: center;}
